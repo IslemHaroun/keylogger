@@ -27,7 +27,7 @@ jobs:
         # Vérifie le style de code
         # E9,F63,F7,F82: vérification des erreurs de syntaxe
         # F401: imports non utilisés
-        flake8 src/ \
+        flake8 / \
           --count \
           --select=E9,F63,F7,F82,F401 \
           --max-complexity=10 \
